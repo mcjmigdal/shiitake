@@ -1,0 +1,4 @@
+# Shiitake project
+
+## Pictures
+`bin/takepic.sh` is run 3 times a day using cron.
