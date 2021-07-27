@@ -23,7 +23,7 @@ echo """
 """
 
 act='active'
-for img in `ls -t data/img/`; do
+for img in `ls data/img/ | sort -hr`; do
   echo """
 
         <div class='carousel-item ${act}'>
